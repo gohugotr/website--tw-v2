@@ -8,7 +8,7 @@ const Navbar = ({ toggle }) => {
       className='relative flex items-center justify-between h-16 font-mono text-black bg-white shadow-sm'
     >
       <Link to='/' className='pl-8'>
-        EBB
+        EGG
       </Link>
       <div className='px-4 cursor-pointer md:hidden' onClick={toggle}>
         <svg

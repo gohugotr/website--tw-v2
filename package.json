@@ -1,5 +1,6 @@
 {
-  "name": "website--tw-v2",
+  "name": "website-tw-v2",
+  "homepage": "https://gohugotr.github.io/website--tw-v2/",
   "private": true,
   "version": "0.0.0",
   "scripts": {
@@ -8,6 +9,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "gh-pages": "^4.0.0",
     "react": "^18.0.0",
     "react-dom": "^18.0.0",
     "react-router-dom": "^6.3.0"

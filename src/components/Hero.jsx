@@ -9,7 +9,7 @@ const Hero = () => {
         to='/'
         className='flex items-center px-10 py-6 text-3xl transition duration-300 ease-in-out bg-yellow-500 rounded-full hover:bg-yellow-300 animate-bounce'
       >
-        Order Now
+        Sipariş
         <svg
           xmlns='http://www.w3.org/2000/svg'
           className='w-6 h-6 ml-4'
