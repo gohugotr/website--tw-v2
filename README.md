@@ -43,3 +43,12 @@ Order Now
     />
 </Link>
 ```
+
+### Github yayınlama aşamaları
+
+- `yarn add gh-pages`
+- **package.json** dosyası içinde
+  - name altına "homepage": "https://gohugotr.github.io/website-tw-v2/",
+  - scripts altına "deploy" : "git-pages -d build",
+  - `yarn build`
+  - `yarn deploy`

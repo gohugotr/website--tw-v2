@@ -1,12 +1,13 @@
 {
   "name": "website-tw-v2",
-  "homepage": "https://gohugotr.github.io/website--tw-v2/",
+  "homepage": "https://gohugotr.github.io/website-tw-v2/",
   "private": true,
   "version": "0.0.0",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "deploy" : "git-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
