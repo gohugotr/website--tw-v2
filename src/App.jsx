@@ -1,16 +1,12 @@
-import Content from "./components/Content"
-import Footer from "./components/Footer"
-import Hero from "./components/Hero"
-import Navbar from "./components/Navbar"
-
+import React from 'react'
+import Footer from './components/Footer'
+import Home from './pages/index'
 
 const App = () => {
   return (
     <>
-      <Navbar/>
-      <Hero/>
-      <Content/>
-      <Footer/>
+      <Home />
+      <Footer />
     </>
   )
 }
