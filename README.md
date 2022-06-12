@@ -52,3 +52,4 @@ Order Now
   - scripts altına "deploy" : "git-pages -d build",
   - `yarn build`
   - `yarn deploy`
+  - 

@@ -7,7 +7,7 @@
     "dev": "vite",
     "build": "vite build",
     "preview": "vite preview",
-    "deploy" : "git-pages -d build"
+    "deploy": "gh-pages -d build"
   },
   "dependencies": {
     "gh-pages": "^4.0.0",
