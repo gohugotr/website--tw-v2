@@ -7,16 +7,16 @@ const Dropdown = ({ isOpen, toggle }) => {
       className={isOpen ? 'grid grid-rows-4 text-center items-center bg-yellow-500' : 'hidden'}
       onClick={toggle}
     >
-      <Link to='/' className='p-4'>
+      <Link to='/website-tw-v2/' className='p-4'>
         Home
       </Link>
-      <Link to='menu' className='p-4'>
+      <Link to='/website-tw-v2/menu' className='p-4'>
         Menu
       </Link>
-      <Link to='about' className='p-4'>
+      <Link to='/website-tw-v2/about' className='p-4'>
         About
       </Link>
-      <Link to='contact' className='p-4'>
+      <Link to='/website-tw-v2/contact' className='p-4'>
         Contact
       </Link>
     </div>

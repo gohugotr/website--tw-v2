@@ -6,7 +6,7 @@ const Hero = () => {
     <div className='flex flex-col items-center justify-center h-screen bg-white'>
       <h1 className='text-3xl font-bold lg:text-9xl md:text-7xl sm:text-5xl mb-14'>EGGCELLENT</h1>
       <Link
-        to='/'
+        to='/website-tw-v2/'
         className='flex items-center px-10 py-6 text-3xl transition duration-300 ease-in-out bg-yellow-500 rounded-full hover:bg-yellow-300 animate-bounce'
       >
         Sipariş
